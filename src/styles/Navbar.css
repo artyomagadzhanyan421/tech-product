@@ -1,0 +1,37 @@
+nav {
+    background: #0a080cb3;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #ffffff0f;
+    padding: 15px 20px;
+    border-radius: 1rem;
+    max-width: 1160px;
+}
+
+.wait {
+    background-color: #693def;
+    border-radius: .5rem;
+    font-size: 14.5px;
+    padding: 11px 15px;
+
+    &:hover {
+        background-color: #7f58f4;
+    }
+}
+
+nav ul {
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul li a:hover {
+    color: darkgray;
+}
