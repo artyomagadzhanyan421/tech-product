@@ -24,6 +24,10 @@
     font-weight: 550;
 }
 
+.blockHeading {
+    font-size: 48px;
+}
+
 .desc {
     color: grey;
     font-weight: 550;
@@ -31,6 +35,10 @@
     font-size: 18px;
     line-height: 1.4em;
     margin: 18px 0px;
+}
+
+.blockDesc {
+    margin: 18px 0px 0px 0px;
 }
 
 .links {
