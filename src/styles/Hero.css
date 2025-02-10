@@ -1,0 +1,76 @@
+.Hero {
+    padding: 110px 25px;
+}
+
+.heroBlock::before {
+    background: linear-gradient(to top, #18181B, transparent);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    bottom: 0%;
+    left: 0%;
+}
+
+.subHead {
+    color: #998afb;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.heading {
+    font-size: 64px;
+    margin-top: 25px;
+    font-weight: 550;
+}
+
+.desc {
+    color: grey;
+    font-weight: 550;
+    max-width: 635px;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin: 18px 0px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 18px;
+}
+
+.heroImg {
+    display: flex;
+    position: relative;
+    max-width: 1072px;
+    margin: 70px 0px;
+}
+
+.heroImg::before {
+    background: linear-gradient(to top, #0a080c, transparent);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+.logos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    gap: 65px;
+}
+
+.logos div img {
+    width: 130px;
+}
