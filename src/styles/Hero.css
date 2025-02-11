@@ -2,7 +2,8 @@
     padding: 110px 25px;
 }
 
-.heroBlock::before {
+.heroBlock::before, 
+.Block.featuresBlock::before {
     background: linear-gradient(to top, #18181B, transparent);
     content: "";
     position: absolute;
@@ -10,6 +11,10 @@
     height: 120px;
     bottom: 0%;
     left: 0%;
+}
+
+.Block.featuresBlock::before {
+    height: 500px;
 }
 
 .subHead {
