@@ -2,7 +2,7 @@
     padding: 110px 25px;
 }
 
-.heroBlock::before, 
+.heroBlock::before,
 .Block.featuresBlock::before {
     background: linear-gradient(to top, #18181B, transparent);
     content: "";
