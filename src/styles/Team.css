@@ -1,0 +1,33 @@
+.team {
+    display: grid;
+    margin: 90px auto 0px auto;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    gap: 1.5rem;
+}
+
+.member {
+    text-align: center;
+    background: linear-gradient(180deg, #161418, #0a080c 40%);
+    border: 1px solid #ffffff0f;
+    border-radius: 1rem;
+    padding: 24px;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.socials a {
+    display: flex;
+}

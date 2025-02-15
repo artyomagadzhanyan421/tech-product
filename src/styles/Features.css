@@ -4,6 +4,10 @@
     padding: 110px 80px;
 }
 
+.Block.teamBlock {
+    background: linear-gradient(180deg, #161418, #0a080c 40%);
+}
+
 .features {
     margin-top: 90px;
 }
