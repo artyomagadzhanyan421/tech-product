@@ -40,7 +40,7 @@
     font-weight: 550;
     max-width: 635px;
     font-size: 18px;
-    line-height: 1.4em;
+    line-height: 1.5em;
     margin: 18px 0px;
 }
 
@@ -56,11 +56,19 @@
     padding-top: 18px;
 }
 
+.links.soonLinks {
+    justify-content: initial;
+}
+
 .heroImg {
     display: flex;
     position: relative;
     max-width: 1072px;
     margin: 90px 0px;
+}
+
+.heroImg.soonImg {
+    max-width: 100%;
 }
 
 .heroImg::before {

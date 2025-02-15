@@ -19,7 +19,7 @@ function Hero() {
         </center>
         <div className="links">
           <a href="#" className="wait">Join waitlist</a>
-          <a href="#" className="wait">See docs</a>
+          <a href="https://www.gitbook.com/" target='_blank' className="wait">See docs</a>
         </div>
 
         <center>
