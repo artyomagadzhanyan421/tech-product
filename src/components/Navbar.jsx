@@ -18,7 +18,7 @@ function Navbar() {
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="https://www.gitbook.com/" target='_blank'>Docs</a></li>
                 </ul>
-                <a href="https://www.gitbook.com/" className="wait">Join waitlist</a>
+                <a href="#join" className="wait">Join waitlist</a>
             </nav>
         </div>
     )

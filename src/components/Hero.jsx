@@ -18,7 +18,7 @@ function Hero() {
           <p className="desc">Empower your team with an all-in-one solution designed to streamline workflows, boost collaboration, and drive productivity.</p>
         </center>
         <div className="links">
-          <a href="#" className="wait">Join waitlist</a>
+          <a href="#join" className="wait">Join waitlist</a>
           <a href="https://www.gitbook.com/" target='_blank' className="wait">See docs</a>
         </div>
 
