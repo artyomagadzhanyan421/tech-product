@@ -1,3 +1,11 @@
+.Navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 3;
+}
+
 nav {
     background: #0a080cb3;
     margin: auto;
@@ -6,9 +14,10 @@ nav {
     justify-content: space-between;
     position: relative;
     border: 1px solid #ffffff0f;
+    backdrop-filter: blur(10px);
     padding: 15px 20px;
     border-radius: 1rem;
-    max-width: 1160px;
+    max-width: 1100px;
 }
 
 .wait {
@@ -34,6 +43,7 @@ nav {
 nav ul {
     position: absolute;
     display: flex;
+    align-items: center;
     gap: 35px;
     font-size: 14px;
     top: 50%;

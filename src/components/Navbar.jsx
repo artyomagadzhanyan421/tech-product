@@ -5,7 +5,7 @@ import "../styles/Navbar.css";
 
 function Navbar() {
     return (
-        <div>
+        <div className='Navbar'>
             <br />
             <nav>
                 <a href="#" style={{ display: "flex" }}>
@@ -16,9 +16,9 @@ function Navbar() {
                     <li><a href="#solutions">Solutions</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#">Docs</a></li>
+                    <li><a href="https://www.gitbook.com/" target='_blank'>Docs</a></li>
                 </ul>
-                <a href="#" className="wait">Join waitlist</a>
+                <a href="https://www.gitbook.com/" className="wait">Join waitlist</a>
             </nav>
         </div>
     )

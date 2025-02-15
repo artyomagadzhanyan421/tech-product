@@ -1,5 +1,5 @@
 .Hero {
-    padding: 110px 80px;
+    padding: 200px 80px 110px 80px;
 }
 
 .heroBlock::before,
@@ -63,7 +63,7 @@
 .heroImg {
     display: flex;
     position: relative;
-    max-width: 1072px;
+    max-width: 1100px;
     margin: 90px 0px;
 }
 
