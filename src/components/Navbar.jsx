@@ -12,8 +12,8 @@ function Navbar() {
                     <img src="/logo.svg" alt="logo" style={{ width: 94 }} />
                 </a>
                 <ul>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Docs</a></li>

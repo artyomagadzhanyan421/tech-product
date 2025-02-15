@@ -1,0 +1,20 @@
+.sectionHead {
+    margin: auto;
+    max-width: 1100px;
+}
+
+.solutions {
+    display: grid;
+    margin: auto;
+    max-width: 1100px;
+    grid-template-columns: repeat(3, 1fr);;
+    gap: 1.5rem;
+    margin-top: 110px;
+}
+
+.solution {
+    background: linear-gradient(180deg, #161418, #0a080c 40%);
+    border: 1px solid #ffffff0f;
+    border-radius: 1rem;
+    padding: 32px;
+}

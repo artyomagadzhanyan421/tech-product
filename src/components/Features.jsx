@@ -6,7 +6,7 @@ function Features() {
     const features = useFeatures();
 
     return (
-        <div className='Block featuresBlock'>
+        <div className='Block featuresBlock' id='features'>
             <center><p className='subHead'>Features</p></center>
             <center><p className="heading blockHeading">It’s packed with all you need</p></center>
             <center>

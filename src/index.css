@@ -8,6 +8,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Inter", serif;
+  scroll-behavior: smooth;
   color: white;
 }
 
