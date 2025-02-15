@@ -28,7 +28,7 @@ function Hero() {
           </div>
         </center>
 
-        <div className="logos">
+        <div className="logos" style={{ zIndex: 1, position: "relative" }}>
           <center><span style={span}>Used by great teams</span></center>
           <div>
             <img src="/hero/l1.svg" alt="image" />
