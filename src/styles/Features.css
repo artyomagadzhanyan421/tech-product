@@ -1,7 +1,7 @@
 .Block {
     position: relative;
     margin: 0px auto 0px auto;
-    padding: 110px 25px;
+    padding: 110px 80px;
 }
 
 .features {
@@ -19,11 +19,11 @@
 .feature {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     margin: auto;
     max-width: 1100px;
-    gap: 110px;
+    gap: 80px;
     z-index: 1;
 }
 
