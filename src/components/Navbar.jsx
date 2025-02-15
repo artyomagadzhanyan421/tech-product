@@ -15,7 +15,7 @@ function Navbar() {
                     <li><a href="#features">Features</a></li>
                     <li><a href="#solutions">Solutions</a></li>
                     <li><a href="#team">Team</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="#">Docs</a></li>
                 </ul>
                 <a href="#" className="wait">Join waitlist</a>

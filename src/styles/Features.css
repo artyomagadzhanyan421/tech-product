@@ -4,7 +4,8 @@
     padding: 110px 80px;
 }
 
-.Block.teamBlock {
+.Block.teamBlock, 
+.Block.faqBlock {
     background: linear-gradient(180deg, #161418, #0a080c 40%);
 }
 
