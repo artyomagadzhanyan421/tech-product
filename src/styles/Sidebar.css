@@ -2,7 +2,7 @@
     position: fixed;
     pointer-events: none;
     opacity: 0;
-    top: 16%;
+    top: 18%;
     left: 0%;
     width: 100%;
     padding: 0px 80px;
@@ -26,6 +26,14 @@
 
 .Sidebar ul li:not(:nth-child(1)) {
     margin-top: 12px;
+}
+
+.Sidebar ul li a {
+    color: #ffffffb3;
+
+    &:hover {
+        color: white;
+    }
 }
 
 @media(max-width: 670px) {
