@@ -20,3 +20,15 @@
     border-radius: 1rem;
     padding: 32px;
 }
+
+@media(max-width: 1100px) {
+    .solutions {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 800px) {
+    .solutions {
+        grid-template-columns: 1fr;
+    }
+}

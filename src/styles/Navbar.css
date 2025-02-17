@@ -3,7 +3,7 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    z-index: 3;
+    z-index: 4;
     padding: 0px 80px;
 }
 
@@ -19,6 +19,7 @@ nav {
     padding: 15px 20px;
     border-radius: 1rem;
     max-width: 1100px;
+    margin-top: 20px;
 }
 
 .wait {
@@ -54,4 +55,16 @@ nav ul {
 
 nav ul li a:hover {
     color: darkgray;
+}
+
+@media(max-width: 1100px) {
+    nav ul {
+        display: none;
+    }
+}
+
+@media(max-width: 670px) {
+    .Navbar {
+        padding: 0px 50px;
+    }
 }

@@ -9,6 +9,7 @@ import Soon from './components/Soon';
 import Team from './components/Team';
 import Faq from './components/Faq';
 import Join from './components/Join';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Team />
       <Faq />
       <Join />
+      <Footer />
     </div>
   )
 }

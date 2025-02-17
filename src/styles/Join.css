@@ -37,3 +37,21 @@
 .list input::placeholder {
     color: grey;
 }
+
+@media(max-width: 610px) {
+    .list {
+        flex-direction: column;
+        width: 100%;
+        gap: 12.5px;
+    }
+
+    .list input, 
+    .list button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .list input {
+        padding: 15px 0px;
+    }
+}

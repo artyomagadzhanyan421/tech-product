@@ -6,7 +6,6 @@ import "../styles/Navbar.css";
 function Navbar() {
     return (
         <div className='Navbar'>
-            <br />
             <nav>
                 <a href="#" style={{ display: "flex" }}>
                     <img src="/logo.svg" alt="logo" style={{ width: 94 }} />

@@ -99,3 +99,35 @@
 .logos div img {
     width: 130px;
 }
+
+@media(max-width: 980px) {
+    .heading {
+        font-size: 55px;
+    }
+}
+
+@media(max-width: 900px) {
+    .logos div {
+        gap: 45px;
+    }
+
+    .logos div img {
+        width: 115px;
+    }
+}
+
+@media(max-width: 670px) {
+    .heading {
+        font-size: 45px;
+    }
+
+    .Hero {
+        padding: 200px 50px 110px 50px;
+    }
+}
+
+@media(max-width: 500px) {
+    .heading {
+        font-size: 40px;
+    }
+}

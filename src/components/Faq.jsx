@@ -22,7 +22,7 @@ function Faq() {
                 {questions.map((faq, index) => (
                     <div key={index} className="faq" onClick={() => toggleFaq(index)}>
                         <div>
-                            <p>{faq.question}</p>
+                            <p style={{ lineHeight: "1.5em" }}>{faq.question}</p>
                             <box-icon name={openFaqs[index] ? 'x' : 'plus'} color="white"></box-icon>
                         </div>
                         <span style={{ display: openFaqs[index] ? 'flex' : 'none' }}>{faq.answer}</span>
