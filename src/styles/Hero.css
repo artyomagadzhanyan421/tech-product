@@ -4,7 +4,7 @@
 }
 
 .heroBlock::before,
-.Block.featuresBlock::before, 
+.Block.featuresBlock::before,
 .Block.solutionsBlock::before,
 .Block.joinBlock::before {
     background: linear-gradient(to top, #161418, transparent);
@@ -129,5 +129,11 @@
 @media(max-width: 500px) {
     .heading {
         font-size: 40px;
+    }
+}
+
+@media(max-width: 460px) {
+    .Hero {
+        padding: 200px 35px 110px 35px;
     }
 }

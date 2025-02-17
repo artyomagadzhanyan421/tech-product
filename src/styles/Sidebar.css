@@ -1,0 +1,35 @@
+.Sidebar {
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 16%;
+    left: 0%;
+    width: 100%;
+    padding: 0px 80px;
+    z-index: 4;
+    font-weight: 500;
+    max-width: 100%;
+}
+
+.Sidebar.show {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.Sidebar ul {
+    background: #0a080cb3;
+    border: 1px solid #ffffff0f;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+.Sidebar ul li:not(:nth-child(1)) {
+    margin-top: 12px;
+}
+
+@media(max-width: 670px) {
+    .Sidebar {
+        padding: 0px 50px;
+    }
+}

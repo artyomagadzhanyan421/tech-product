@@ -3,7 +3,7 @@ import React from 'react';
 // CSS
 import "../styles/Navbar.css";
 
-function Navbar() {
+function Navbar({ click }) {
     return (
         <div className='Navbar'>
             <nav>
@@ -17,7 +17,12 @@ function Navbar() {
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="https://www.gitbook.com/" target='_blank'>Docs</a></li>
                 </ul>
-                <a href="#join" className="wait">Join waitlist</a>
+                <div className="toggle">
+                    <a href="#join" className="wait">Join waitlist</a>
+                    <i onClick={click}>
+                        <box-icon name='menu' color="white"></box-icon>
+                    </i>
+                </div>
             </nav>
         </div>
     )

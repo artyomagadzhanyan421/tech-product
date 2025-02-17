@@ -57,14 +57,43 @@ nav ul li a:hover {
     color: darkgray;
 }
 
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.toggle i {
+    display: none;
+    cursor: pointer;
+}
+
 @media(max-width: 1100px) {
     nav ul {
         display: none;
+    }
+
+    .toggle i {
+        display: flex;
     }
 }
 
 @media(max-width: 670px) {
     .Navbar {
         padding: 0px 50px;
+    }
+}
+
+@media(max-width: 460px) {
+    nav .wait {
+        display: none;
+    }
+
+    nav {
+        padding: 24.3px 20px;
+    }
+
+    .Navbar {
+        padding: 0px 35px;
     }
 }
