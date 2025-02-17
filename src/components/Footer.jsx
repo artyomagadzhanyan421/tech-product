@@ -17,11 +17,11 @@ function Footer() {
                     <div className='footerLinks'>
                         <ul>
                             <li>Product</li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Solutions</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Docs</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#solutions">Solutions</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="https://www.gitbook.com/" target='_blank'>Docs</a></li>
                         </ul>
                         <ul>
                             <li>Socials</li>
