@@ -10,7 +10,7 @@ function Footer() {
                 <div className="footerFlex">
                     <div>
                         <a href="#" style={{ display: "flex", width: "fit-content" }}>
-                            <img src="/logo.svg" alt="logo" style={{ width: 94 }} />
+                            <img src="/logo.svg" alt="logo" style={{ width: 92 }} />
                         </a>
                         <span>A leading SaaS provider committed to simplifying workflows, enhancing collaboration, and driving growth for businesses of all sizes.</span>
                     </div>

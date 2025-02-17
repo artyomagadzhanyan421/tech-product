@@ -8,7 +8,7 @@ function Navbar({ click }) {
         <div className='Navbar'>
             <nav>
                 <a href="#" style={{ display: "flex" }}>
-                    <img src="/logo.svg" alt="logo" style={{ width: 94 }} />
+                    <img src="/logo.svg" alt="logo" style={{ width: 92 }} />
                 </a>
                 <ul>
                     <li><a href="#features">Features</a></li>
